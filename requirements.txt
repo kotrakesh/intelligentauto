@@ -4,3 +4,4 @@ Flask-Babel==0.9
 Flask-Login==0.2.11
 PyMySQL==0.7.11
 python-openid==2.2.5
+gunicorn==19.3.0
