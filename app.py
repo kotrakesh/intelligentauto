@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hellworld():
-	return "i.Do "
+	return render_template('%s.html' % 'login')
 
 @app.route('/dashboard')
 def hello_world():
