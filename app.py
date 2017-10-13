@@ -9,7 +9,10 @@ def workflow():
 	return render_template('%s.html' % 'index')#
 @app.route('/workflow/recruiting-applet')
 def workflowdetail():
-	return render_template('%s.html' % 'workflow-detail')	
+	return render_template('%s.html' % 'workflow-detail')
+@app.route('/workflow/interview-tracker')
+def interviewtrack():
+	return render_template('%s.html' % 'interview-tracker')	
 @app.route('/dashboard')
 def dashbord():
 	return render_template('%s.html' % 'dashboard')
