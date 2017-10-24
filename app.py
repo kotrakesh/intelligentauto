@@ -7,6 +7,15 @@ def login():
 @app.route('/workflow')
 def workflow():
 	return render_template('%s.html' % 'index')#
+@app.route('/domains')
+def domains():
+	return render_template('%s.html' % 'domains')#
+@app.route('/logistics')
+def logistics():
+	return render_template('%s.html' % 'logistics')#
+@app.route('/finances')
+def finances():
+	return render_template('%s.html' % 'finances')#
 @app.route('/workflow/recruiting-applet')
 def workflowdetail():
 	return render_template('%s.html' % 'workflow-detail')
